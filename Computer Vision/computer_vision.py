@@ -7,14 +7,14 @@ load_dotenv()
 ENDPOINT = os.getenv("ENDPOINT")
 KEY = os.getenv("API_KEY")
 
-IMAGE_PATH = "foto2.jpeg"  # Change the image path
+IMAGE_PATH = "images/foto2.jpeg"  # Change the image path
 
 
 url = f"{ENDPOINT}/computervision/imageanalysis:analyze"
 
 params = {
     "api-version": "2023-10-01",
-    "features": "objects,denseCaptions",
+    "features": "objects,denseCaptions",  # Using object detection and dense captions
     "language": "en"
 }
 
