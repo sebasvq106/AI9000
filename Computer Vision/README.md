@@ -141,6 +141,6 @@ To validate the solution, two different test images were selected and analyzed u
 ## Author
 
 **Sebastián Vargas Quesada**
-Electrical Engineering Student – Computer & Network Emphasis
+Electrical Engineering – Computer & Network Emphasis
 
 ---
